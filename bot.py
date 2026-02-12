@@ -49,8 +49,8 @@ def add_logo(video_path, logo_path, final_path):
         video = VideoFileClip(video_path)
         logo = (ImageClip(logo_path)
                 .set_duration(video.duration) 
-                .resize(height=310) 
-                .margin(right=100, top=40, opacity=0) 
+                .resize(height=260) 
+                .margin(right=100, top=15, opacity=0) 
                 .set_pos(("right", "top"))) 
         
         final_video = CompositeVideoClip([video, logo])
