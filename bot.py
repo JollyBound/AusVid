@@ -18,7 +18,7 @@ from moviepy.editor import VideoFileClip, ImageClip, CompositeVideoClip
 # הגדרות אישיות של הבוט
 # ==========================================
 TOKEN = "8253310052:AAHXTzZmKeXp6RexB6yjZiaDbsyUTrj-HCc"
-LOGO_FILE = "auspharm_logo.png" # שם הלוגו שלך
+LOGO_FILE = "IMG_0964.png" # שם הלוגו שלך
 OUTPUT_FOLDER = "סרטונים מוכנים"
 
 # פרטי ההתחברות לאינסטגרם
